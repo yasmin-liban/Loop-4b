@@ -1,0 +1,35 @@
+	ideias para o meu site:
+1- adicionar imagens a add-produto.php e add-prod_form.php
+2- criar páginas diferentes pro login e sign- up
+1-toggler entre modo escuro e claro.
+2-privacy policy sobre itens não trocáveis.
+3.botão de pesquisa.
+4.botão pra denunciar item como lixo.
+4.alterar o banco de dados para adicionar categoria
+
+
+		Como a estrutura do site deve ficar:
+
+								main
+							create		enter
+						main				user-page
+								add-prod_form		    index
+						     user-page	      		index	      	  item-profile
+
+	Index.php:
+
+1- vários cards com as informações dos produtos e foto
+2- botão no card que leva a uma página separada para o item.
+2- página separada terá foto, informações do item e email em destaque para contato.
+
+	Renomeação dos arquivos (após termino)
+main.php -----------> login.php e sign_up.php
+enter.php ----------> login_enter.php
+create.php ---------> sign_up_create.ph
+user_page2.php -----> user_page.php
+user_items.php -----> 
+add-prod_form.php --> form_add_items.php
+add-produtos.php ---> add_items.php
+
+-------------------------------------------------------------------ATENÇÃO!!!!!!!!!!-------------------------------------------------------------------
+	NÃO SE ESQUEÇA DE RENOMEAR AS VARIÁVEIS QUE FOREM NESCESSÁRIAS.

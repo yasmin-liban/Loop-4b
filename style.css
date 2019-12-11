@@ -1,0 +1,107 @@
+.fields{
+    padding:2%;
+}
+
+
+.btn-custom{
+    background-color: rgba(0, 0, 0,0);
+    border-color: rgb(255, 255, 255);
+    color:white;
+    
+}
+.colorful-bg{ 
+    padding: 2%;
+}
+body{
+    background: rgb(70,208,55);
+    background: linear-gradient(322deg, rgba(70,208,55,1) 0%, rgba(30,127,217,1) 100%); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.login-block{
+    margin-left: 30%;
+}
+
+.imp{
+    color: rgb(228, 94, 4);
+    margin-right: 5%;
+    font-family: 'Fontdiner Swanky', cursive;
+}
+
+.log-sig{
+    color: white;
+    text-shadow: 2px 5px rgb(54, 54, 177);
+    font-family: 'Fontdiner Swanky', cursive;
+    margin:1%;
+}
+
+.site-font{
+    color:white;
+}
+
+.block-middle{
+    display:block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .log-sig {
+      margin:5%;
+    }
+    .login-block{
+        margin-left: 0;
+    }
+    img{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        height: auto;
+        width: 50vw;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #add-prod{
+        margin-top:2%;
+    }
+    
+}
+
+.hidden-input{
+    background-color: rgba(0, 0, 0,0);
+    color:white;
+    border-style: none;
+    text-decoration: underline;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.hidden-input:hover{
+    /*color:rgb(228, 94, 4);*/
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.prod-img{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.prod-img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+input[type='file'] {
+    display: none
+}
+label{
+    padding: 2%;
+    background-color: rgb(230, 137, 75);
+    color:black;
+    border-radius:8px;
+    transition-duration: 0.3s;
+}
+label:hover{
+    cursor: pointer;
+    background-color:rgb(228, 94, 4);
+    color:white;
+}
